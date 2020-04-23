@@ -1,9 +1,10 @@
 # PyBeginnersKli
+Python for finance professionals - Intro to python group 2
 https://www.changetocoding.co.uk/
 
 
 ## For Biz people
-Excecutives training course on data science: [link](https://www.coursera.org/specializations/executive-data-science?utm_medium=listingPage)  
+Executives training course on data science: [link](https://www.coursera.org/specializations/executive-data-science?utm_medium=listingPage)  
 McKinsey Report: [link](https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/McKinsey%20Digital/Our%20Insights/Big%20data%20The%20next%20frontier%20for%20innovation/MGI_big_data_full_report.ashx)  
 Data science for ordinary people: [link](https://www.slideshare.net/JeffreyStricklandPhD/data-science-andanalyticsforordinarypeopleebook)  
 Interviews with Datascientists: [link](https://www.datascienceweekly.org/pdf/DataScienceWeekly-DataScientistInterviews-Vol1-April2014.pdf)  
@@ -42,8 +43,8 @@ The focus on this course is home work. The best way to learn coding is by practi
 4. Set the homework.
 
 The homework will usually consist of:
-- A learning component: some reading/online videos/tutorials/excerises where you practise what was covered in the lesson in a interactive manner.
-- A practical component: An excerise to put into practise what you know so far to solve a problem.
+- A learning component: some reading/online videos/tutorials/exercises where you practise what was covered in the lesson in an interactive manner.
+- A practical component: An exercise to put into practise what you know so far to solve a problem.
   
 
 ## Course Requirements
