@@ -1,5 +1,5 @@
 # PyBeginnersKli
-Python for finance professionals - Intro to python group 2
+Python for finance professionals - Intro to python group 2  
 https://www.changetocoding.co.uk/
 
 
