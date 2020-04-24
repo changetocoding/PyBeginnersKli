@@ -91,7 +91,7 @@ Datastructures:
 - Sets  
 - Tuples  
   
-HW: https://classroom.udacity.com/courses/ud1110 Lesson 3 (Data Structures. Apx 3 hours)  
+HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 3 (Data Structures. Apx 3 hours)  
 HW: [lists](https://www.learnpython.org/en/Lists)  
 HW: [Conditionals](https://www.learnpython.org/en/Conditions)  
 HW: (tbc)  
@@ -99,7 +99,7 @@ HW: (tbc)
 ## Lesson 3: Revision of what we've learned
 In this lesson we will go over looping, if statements and what we have covered so far  
 
-HW: https://classroom.udacity.com/courses/ud1110 Lesson 4 (Covers Dictionaries, if, for, while loops, enumerate, zip)  
+HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 4 (Covers Dictionaries, if, for, while loops, enumerate, zip)  
 HW: Fizz Buzz - Fun drinking game and teaching tool for division for kids (tbc)  
 
 
