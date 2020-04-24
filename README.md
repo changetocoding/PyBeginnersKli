@@ -53,7 +53,7 @@ The homework will usually consist of:
 - Python: [link](https://www.python.org/downloads/release/python-382/). (Windows x86-64 executable installer if you have a windows machine, macOS 64-bit installer if you use a mac)
   
 -----
-# Python 101
+# Introduction to Python
 
 ## Lesson 1: Introduction to python
 In this lesson we will introduce python:
