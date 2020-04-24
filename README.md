@@ -123,4 +123,4 @@ HW: Phonebook (tbc)
 
 
 ## A well deserved break
-The next course will continue from this point. Contact us for more info
+The next course will continue from this point.
