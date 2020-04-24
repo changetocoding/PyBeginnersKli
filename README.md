@@ -68,7 +68,7 @@ Additional content: pathway for becoming a data scientist [link](https://trello-
 
 HW: [Hello world](https://www.learnpython.org/en/Hello%2C_World%21)  
 HW: [Variables](https://www.learnpython.org/en/Variables_and_Types)    
-HW: https://classroom.udacity.com/courses/ud1110 Lesson 1, 2 (Why Python, Data Types & Operators. Apx 3 hours)  
+HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 1, 2 (Why Python, Data Types & Operators. Apx 3 hours)  
 HW: Bart Simpson  
 Bart wrote lines on a chalkboard at the start of every Simpsons episode for being naughty. If only he had python...
 
@@ -106,7 +106,7 @@ HW: Fizz Buzz - Fun drinking game and teaching tool for division for kids (tbc)
 ## Lesson 4: Functions & Recursion
 In this lesson we will cover functions and recursion
 
-HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 (Control Flow, Functions).  
+HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 5 (Control Flow, Functions).  
 HW: Maths as functions: https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39  
 HW: How old will I be: https://www.codewars.com/kata/5761a717780f8950ce001473  
 
