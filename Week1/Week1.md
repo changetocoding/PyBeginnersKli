@@ -4,7 +4,7 @@ In this lesson we will introduce python:
 ### Admin
 - Course structure
 - Class structure
-- Course website
+- Course website [link](https://github.com/changetocoding/PyBeginnersKli/)
 - Discuss what know about python
 
 ### Overview of different programming languages:
