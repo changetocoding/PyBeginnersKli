@@ -29,6 +29,8 @@ R, Mathlab
 - Execute a script from the command line (python "HelloWorld.py")
 - run it in Pycharm (Create a project)
 
+[Videos of how to do it](https://www.changetocoding.co.uk/pythonvideos)
+
 ```python
 print('hello world')
 ```
