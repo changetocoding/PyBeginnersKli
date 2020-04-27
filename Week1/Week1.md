@@ -82,7 +82,7 @@ if a == 1:
 elif a == 2:
     print('The value of a is 2')
 ```
-![if](img/if.png) 
+![if](./img/if.png) 
 
 Another example  
 ```python
@@ -103,7 +103,7 @@ else:
 for a in range(0, 10):
     print("Value of a is " + str(a))
 ```
-![if](img/for.png)  
+![For](./img/for.png)  
 
 ```python
 for item in ['dog', 'fox', 'tiger']:
@@ -118,7 +118,7 @@ while b < 10 :
     print("The value of b is " + str(b))
     b += 1
 ```
-![while](img/while.png)  
+![while](./img/while.png)  
 
 While loop. Have to remember to increment unless:
 ```python
