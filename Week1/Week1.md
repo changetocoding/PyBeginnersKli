@@ -149,7 +149,6 @@ x == 1 # checks a value
 
 Additional content: pathway for becoming a data scientist [link](https://trello-attachments.s3.amazonaws.com/546e1ae89eadee778ae12bf5/1280x5859/eadbecbe3badba6847e0ea1e629e3827/How-to-become-a-data-scientist.jpg) 
 
-
 HW: [Hello world](https://www.learnpython.org/en/Hello%2C_World%21)  
 HW: [Variables](https://www.learnpython.org/en/Variables_and_Types)    
 HW: https://classroom.udacity.com/courses/ud1110 Lesson 1, 2 (Why Python, Data Types & Operators. Apx 3 hours)  
@@ -162,3 +161,5 @@ I will not waste chalk.
 I will not waste chalk.
 ....
 ```
+
+Email me your bart simpson solutions 11.59pm on Sunday night
