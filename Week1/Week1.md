@@ -74,6 +74,8 @@ z = x + y
 ```
 
 ### Selection ("if")
+Indentation is very important! 4 spaces
+
 ```python
 a = 1
 
@@ -104,11 +106,6 @@ for a in range(0, 10):
     print("Value of a is " + str(a))
 ```
 ![For](./img/For.png)  
-
-```python
-for item in ['dog', 'fox', 'tiger']:
-    print("Value of item is " + item)
-```
 
 **While**
 
