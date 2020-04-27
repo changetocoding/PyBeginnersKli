@@ -136,7 +136,14 @@ for x in range(1, 11):
 		print(str(x) + " times " + str(y) + " = " + str(answer))
 ```
 
-
+### Also covered
+- Indentation (4 spaces) is important  
+- Python reads the code like a book, and similar to a building ikea furniture goes off and does it
+- Difference between:
+```python
+x = 1 # sets a value
+x == 1 # checks a value
+```
 
 ### Homework
 
