@@ -26,15 +26,15 @@ Just (google)[https://lmgtfy.com/?q=python+for+loop] (or your favourite search e
 Collection of objects. Flexible size
 
 ```python
-my_list = [12, 14, 56, 60]
+a = [12, 14, 56, 60]
 ```
 
 Index | Value
 --- | ---
-my_list[0] | 12
-my_list[1] | 14
-my_list[2] | 56
-my_list[3] | 60
+a[0] | 12
+a[1] | 14
+a[2] | 56
+a[3] | 60
 
 A list is indexed starting at 0.
 
