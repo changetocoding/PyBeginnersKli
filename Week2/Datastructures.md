@@ -54,7 +54,11 @@ for item in basket:
     print(item)
 ```
 
-Little aside: range() from lesson 1 is also iterable. To get range as a list use the list keyword: list(range(0,10))
+
+Little aside: range() from lesson 1 is also iterable. To get range as a list use the list keyword: 
+```python
+list(range(0,10))
+```
 
 ### Sets
 List but makes sure items are unique
