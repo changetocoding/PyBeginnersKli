@@ -91,5 +91,5 @@ my_dict = { 'David' : 30, 'Paul' : 45 }
 david_age = my_dict['David'] # 30
 
 # add a new item
-d['mynewkey'] = 50
+my_dict['mynewkey'] = 50
 ```
