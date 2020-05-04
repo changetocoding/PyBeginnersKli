@@ -13,7 +13,7 @@ In this lesson we will cover how to get help and datastructures for grouping thi
 ### Documentation/Getting help
 - [official python docs](https://docs.python.org/3/tutorial/index.html)
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/python) Q&A site
-- Just (google)[https://lmgtfy.com/?q=python+for+loop] (or your favourite search engine) it 
+- Just [google](https://lmgtfy.com/?q=python+for+loop) (or your favourite search engine) it 
 - Ask fellow classmates  
 
 ### Lists
