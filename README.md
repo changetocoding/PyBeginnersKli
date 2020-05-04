@@ -92,8 +92,8 @@ Datastructures:
 - Tuples  
   
 HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 3 (Data Structures. Apx 3 hours)  
-HW: [lists](https://www.learnpython.org/en/Lists)  
-HW: [Conditionals](https://www.learnpython.org/en/Conditions)  
+Optional: [lists](https://www.learnpython.org/en/Lists)  
+Optional: [Conditionals](https://www.learnpython.org/en/Conditions)  
 HW: (tbc)  
 
 ## Lesson 3: Revision of what we've learned
