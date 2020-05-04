@@ -93,3 +93,128 @@ david_age = my_dict['David'] # 30
 # add a new item
 my_dict['mynewkey'] = 50
 ```
+
+
+### Code from the class
+```python
+#https://github.com/changetocoding/PyBeginnersKli/blob/master/Week2/Datastructures.md
+
+#print('Welcome to class')
+
+animal = 'dog'
+name = 'pete'
+action = 'run'
+
+#print('Does your {} named {} {}?'.format(animal, name, action))
+#print('Does your ' + animal + ' named ' + name + ' run?')
+
+
+#for i in range(100):
+#  print('I will not get very far with this attitude.')
+
+
+#a = 1
+#while a < 101:
+#  print('I will not draw naked ladies in class.')
+#  a = a + 1
+
+#letters_list = ['a', 'b', 'c']
+#print(letters_list)
+var_list = [animal, name, action]
+#print(var_list)
+#no_list = [14, 67, 89, 88, 23]
+#print(no_list)
+
+#print(no_list[1])
+#print(var_list[2])
+#print(letters_list[0])
+
+#print(var_list[1])
+
+
+var_list.append('Does your')
+#print('After append:')
+#print(var_list)
+
+#del var_list[1]
+#print('After delete:')
+#print(var_list)
+
+
+#print(var_list)
+
+size_of_list = len(var_list)
+
+# Dont do this
+#for i in range(0, size_of_list):
+#  print(var_list[i])
+
+# Do this instead
+#for item in var_list:
+#  print(item)
+
+# list []
+# set {}
+# tuple ()
+#basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana', 'kiwi'}
+
+# Use add instead of append for sets
+#basket.add('lemon')
+#basket.add('pear')
+
+
+
+# You can upack tuples into variables
+#basket_tuple = ('apple', 'orange', 'apple')
+#first_fruit, second_fruit, third_fruit = basket_tuple
+
+#print(first_fruit)
+#print(second_fruit)
+#print(third_fruit)
+
+
+#address_dict = {'David' : 5655665, 'Paul' : animal }
+#address_dict['Sarah'] = 838383
+
+#print(address_dict['Sarah'])
+
+#name = input('Enter a name: \n')
+#print(name)
+
+#if name == 'david':
+#  for i in range(30):
+#    print('Happy birthday')
+#elif name == 'alice':
+#  print('its not your birthay')
+#else:
+#  print('hello {}'.format(name))
+
+
+months = [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+
+#for i in range(0, len(months)):
+#  print(months[i])
+
+month = input('Enter a month: \n')
+months_dict = { 'Jan' : 1, 'Feb' : 2, 'Mar' : 3, 'Apr' : 4, 'May' : 5, 'Jun' : 6 }
+month_no = months_dict[month]
+print('The month number is: ' + str(month_no))
+```
+
+# Homework
+HW: [Udacity Course](https://classroom.udacity.com/courses/ud1110) Lesson 3 (Data Structures. Apx 3 hours)  
+HW: Phonebook Part 1:
+The task is to create a simple phonebook.
+
+1. Use a dictionary. Initialise it with some names and numbers
+2. Add a name and a number to the dictionary
+3. Add more names to the dictionary
+4. Fetch a number from the dictionary using a name. Print it on the screen
+5. Delete a name/number pair from the dictionary.
+
+You should store the number as a string (becase of the leading 0's in a telephone number)
+
+
+
+Optional: [lists](https://www.learnpython.org/en/Lists)  
+Optional: [Conditionals](https://www.learnpython.org/en/Conditions)  
