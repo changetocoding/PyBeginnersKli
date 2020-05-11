@@ -25,29 +25,72 @@ Briefly cover sets and tuples
 - While Loop
 - break
 
+We didn't cover break but that allows you to terminate the loop prematurely (aka jump out of it)
 
-# Functions
-
-Functions group together logic & code. Scope of variables only within function too.
+### Code from the class
 ```python
-def increment_by_one(count):
-	new_count = count + 1
-	return new_count
-```
+# 
+#int  - 7
+#float  - 7.1, 7.0
+#string - "hello" 'hello "dhdhd"'
+#boolean - True or False
 
-What do you think happens in this scenario
-```python
-p = 20
+list = [ "apple", "pear"] # Mutable. Can change
+tuple =  "apple", "pear", "bananna"
+set = { "apple", "pear", "pear" }  
 
-def increment_by_one(count):
-	count = count + 10
-	return count
-	
-b = inc(p)
+dict = { "apple":1}
+#print("apple" in dict)
 
-# What do you think value of b is?
-# What do you think value of p is?
+#print(set)
 
+#a1, b, c = tuple
+
+#print(a1)
+#print(b)
+#print(c)
+
+
+dimensions = 52, 40, 100
+length, width, height = dimensions
+#print("The dimensions are {} x {} x {}".format(length, width, height))
+#print("The dimensions are " + length + " x " + width + " x " + height)
+
+day = "today"
+#print("hello {}, it is nice to see you {}.".format("peter", day))
+#print("hello " + "peter" + ", it is nice to see you " + day + ".")
+
+
+a = "pillow"  # Sets a variable
+#"hello" == "hello" # Checks
+#print(a)
+#print("Hello" == "hello")
+
+b = "hello"
+if a == "hello":
+  b = "test"
+  c = "dog"
+  print("Hello is A")
+
+#if a == "hello":
+#  print(b)  
+#  print(c)
+#  print("A is an object")
+#elif a == "case":
+#  print("A is a case")
+#else:
+#  print(b)  
+#  print("A is not hello")
+
+for i in range(0,10):
+  print("Hello world" + str(i))
+
+print()
+
+i = 0
+while i < 10:
+  print("Hello world" + str(i))
+  i = i + 2
 ```
 
 # Homework
