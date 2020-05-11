@@ -1,0 +1,89 @@
+# Homework review
+- Fizz buzz
+- Udacity course
+- Talk about indentation. Use spaces and use 4 (recommended & everyone does this). The online repl uses 2 and can't change it
+
+# Functions
+
+Functions group together logic & code. Scope of variables only within function too.
+```python
+def increment_by_one(count):
+	  new_count = count + 1
+	  return new_count
+```
+
+What do you think happens in this scenario
+```python
+p = 20
+
+def increment_by_one(count):
+	  count = count + 10
+	  return count
+	
+b = inc(p)
+
+# What do you think value of b is?
+# What do you think value of p is?
+
+```
+
+
+# Recursion
+This is when a function calls itself.
+
+```python
+# Summing numbers recursively
+
+def sum(list):
+    if len(list) == 1:
+        return list[0]
+    else:
+        return list[0] + sum(list[1:])
+
+print(sum([5,7,3,8,10]))
+
+```
+
+  
+Recursion happens a lot languages. An example:
+> Every human's mother and father is a human.
+
+So lets rewrite it as a function:
+
+is_human(person) = is_human(person.Father) && is_human(person.Mother)
+
+So would look like
+```python
+def is_human(alien): 
+   return is_human(alien.father) && is_human(alien.mother)
+```
+So now I'm like is John a human?
+Well to know that I need to know if Johns parents are human. To know that I need to know if thier parents (john's grandparents) are human.
+
+Limit of recursion. Python stops the function calls after a depth of 1000 calls.
+
+
+### Fibonacci numbers
+
+Fibonacci numbers are a sequence that is got by adding the previous two numbers.
+
+The sequence looks like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34  
+https://www.mathsisfun.com/numbers/fibonacci-sequence.html (Stop reading after section The Rule)
+
+There are several ways to solve this.
+
+Solve it using 3 different ways:
+1. For loop
+2. While loop
+3. Recursion
+
+# Lamadas:
+Shorthand for writing a function
+
+
+# Homework
+
+
+## Course book
+HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 (Control Flow, Functions). Control flow is revision of lesson 1  
+(Functions, variable scope, default arguments, lamda functions)
