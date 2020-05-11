@@ -35,9 +35,9 @@ We didn't cover break but that allows you to terminate the loop prematurely (aka
 #string - "hello" 'hello "dhdhd"'
 #boolean - True or False
 
-list = [ "apple", "pear"] # Mutable. Can change
-tuple =  "apple", "pear", "bananna"
-set = { "apple", "pear", "pear" }  
+list = [ "apple", "pear"] # Mutable = Can change
+tuple =  ("apple", "pear", "bananna") # Immutable. The () are optional
+set = { "apple", "pear", "pear" }  # No duplicates
 
 dict = { "apple":1}
 #print("apple" in dict)
