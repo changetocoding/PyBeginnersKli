@@ -2,6 +2,10 @@
 In this lesson we will go over what we have covered so far and cover functions
 
 
+# Homework review
+- Go through udacity course and any questions
+- Phonebook part I
+
 # Data types
 ### Basic types
 List all basic types you know
