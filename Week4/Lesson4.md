@@ -193,9 +193,9 @@ Pick recursion and one other way of writing it from below and write a method (fo
 
 E.g:
 ```python
-david_funky_no_for_loop(3) // returns -4
-david_funky_no_while_loop(5) // returns -16
-david_funky_no_recursion(10) // returns 512
+david_funky_no_for_loop(3) # returns -4
+david_funky_no_while_loop(5) # returns -16
+david_funky_no_recursion(10) # returns 512
 ```
 
 ## Course book
