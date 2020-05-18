@@ -1,3 +1,5 @@
+Next week is last week in course. Course continuation
+
 # Homework review
 - Fizz buzz
 - Udacity course
@@ -8,8 +10,8 @@
 Functions group together logic & code. Scope of variables only within function too.
 ```python
 def increment_by_one(count):
-	  new_count = count + 1
-	  return new_count
+   new_count = count + 1
+   return new_count
 ```
 
 What do you think happens in this scenario
@@ -17,8 +19,8 @@ What do you think happens in this scenario
 p = 20
 
 def increment_by_one(count):
-	  count = count + 10
-	  return count
+   count = count + 10
+   return count
 	
 b = inc(p)
 
