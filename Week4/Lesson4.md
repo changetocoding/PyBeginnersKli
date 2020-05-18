@@ -3,7 +3,7 @@ Next week is last week in course. Course continuation
 # Homework review
 - Fizz buzz
 - Udacity course
-- Talk about indentation. Use spaces and use 4 (recommended & everyone does this). The online repl uses 2 and can't change it
+- Indentation. Should use spaces (instead of tabs) and use 4 (recommended & everyone does this). The online repl uses 2 and can't change it
 
 # Functions
 
