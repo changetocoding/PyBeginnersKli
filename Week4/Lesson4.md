@@ -14,6 +14,8 @@ def increment_by_one(count):
    return new_count
 ```
 
+A function begins with the def keyword, then the method name, then () with parameters (variables that are passed to the method). The return statement is optional and contains whatever value you want to set to return (see below):
+
 What do you think happens in this scenario
 ```python
 p = 20
@@ -22,7 +24,7 @@ def increment_by_one(count):
    count = count + 10
    return count
 	
-b = inc(p)
+b = increment_by_one(p)
 
 # What do you think value of b is?
 # What do you think value of p is?
