@@ -62,6 +62,8 @@ Well to know that I need to know if Johns parents are human. To know that I need
 
 Limit of recursion. Python stops the function calls after a depth of 1000 calls.
 
+Very important: Every recursive function can be rewritten as a for or a while loop!
+
 
 ### Fibonacci numbers
 
