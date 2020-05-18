@@ -87,7 +87,7 @@ Shorthand for writing a function
 ## David's funky numbers
 
 David's funky numbers are defined as:
-> d(n) = k * -1 * d(n-1)
+> d(n) = k * -1 * d(n-1)  
 > d(1) is always -1
 Where k is a constant given to you
 
@@ -106,7 +106,7 @@ david_funky_no_recursion(9, 10) // prints -100000000. n is 9, k is 10
 ```
 
 If you are struggling with it, do it without the K
-> d(n) = -1 * d(n-1)
+> d(n) = -1 * d(n-1)  
 > d(1) is always -1
 
 Then add in the k afterwards
