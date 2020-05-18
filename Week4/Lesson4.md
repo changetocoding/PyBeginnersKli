@@ -105,5 +105,4 @@ david_funky_no_recursion(9, 10) // prints -100000000. n is 9, k is 10
 
 
 ## Course book
-HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 (Control Flow, Functions). Control flow is revision of lesson 1  
-(Functions, variable scope, default arguments, lamda functions)
+HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 Functions). (Functions, variable scope, default arguments, lamda functions).
