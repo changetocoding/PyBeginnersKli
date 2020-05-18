@@ -84,35 +84,124 @@ Solve it using 3 different ways:
 # Lamadas:
 Shorthand for writing a function
 
+# Code from the class
+```python
+books = ['The wind in the willows', 'Harry potter', 'Lord of the rings']
+authors = ['No idea', 'JK Rowling', 'JR Tolkien']
+
+# zip
+#for i in range(3):
+#  author = input('Enter the author\n')
+#  authors.append(author)
+#
+#  book = input('Enter the book\n')
+#  books.append(book)
+#
+#for book, author in zip(books, authors):
+#    print("{} was written by {}".format(book, author))
+
+# enumerate
+#for book in books:
+#  print(book)
+
+#for i in range(0, len(books)):
+#  print(books[i])
+
+#for i in range(0, len(books)):
+#  book = books[i]
+#  print('The {}th book is {}'.format(i, book))
+
+#for i, book in enumerate(books):
+#  print('The {}th book is {}'.format(i, book))
+
+
+def fizz_buzz(last_no):
+  for count in range(last_no):
+    if (count % 15 == 0):
+      print('fizz buzz')
+    elif (count % 3 == 0):
+      print('fizz')
+    elif (count % 5 == 0):
+      print('buzz')
+    else:
+      print('This is {} out of {}'.format(count, last_no))
+
+
+
+
+def increment_by_ten(count):
+   count = count + 10
+   return count
+
+p = 20
+b = increment_by_ten(p)
+
+# What do you think value of b is?
+# What do you think value of p is?
+#print(b) # 30
+#print(p) # 20
+
+
+
+1, 1, 2, 3, 5, 8
+
+def fib_rec(no):
+  if no == 1 or no == 2:
+    return 1
+
+  return fib_rec(no - 1) + fib_rec(no - 2)
+
+def fib_for(no):
+  if no == 1 or no == 2:
+    return 1
+
+  nminus1 = 1 
+  nminus2 = 1 
+  total = 0
+  for i in range(3, no + 1):
+    total = nminus1 + nminus2
+    nminus2 = nminus1
+    nminus1 = total
+
+  return total
+
+def fib_arr(no):
+  arr = [1, 1]
+  if no == 1 or no == 2:
+    return 1
+
+  latest = 0
+  for i in range(2, no):
+    latest = arr[i - 1] + arr[i - 2]
+    arr.append(latest)
+
+  return arr
+
+
+print(fib_arr(10))
+```
+
 
 # Homework
 ## David's funky numbers
 
 David's funky numbers are defined as:
-> d(n) = k * -1 * d(n-1)  
+> d(n) = -2 * d(n-1)  
 > d(1) is always -1
-Where k is a constant given to you
 
-Write 3 methods that calculates the david funky number at n (given k) 3 different ways
+The first 10 numbers are -1, 2, -4, 8, -16, 32, -64, 128, -256, 512
+
+Pick recursion and one other way of writing it from below and write a method (for each way) that calculates the value of the number at n.
 - For Loop
 - Do while loop
 - Recursively
 
+E.g:
 ```python
-// called method with positional arguments:
-david_funky_no_for_loop(n = 4, k = 10) // prints 1000
-
-// for the next two n is the first parameter, and k is the second parameter
-david_funky_no_while_loop(5, 2) // prints -16. n is 5, k is 2
-david_funky_no_recursion(9, 10) // prints -100000000. n is 9, k is 10
+david_funky_no_for_loop(3) // returns -4
+david_funky_no_while_loop(5) // returns -16
+david_funky_no_recursion(10) // returns 512
 ```
-
-If you are struggling with it, do it without the K
-> d(n) = -1 * d(n-1)  
-> d(1) is always -1
-
-Then add in the k afterwards
-
 
 ## Course book
 HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 Functions). (Functions, variable scope, default arguments, lamda functions).
