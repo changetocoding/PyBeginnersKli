@@ -105,6 +105,12 @@ david_funky_no_while_loop(5, 2) // prints -16. n is 5, k is 2
 david_funky_no_recursion(9, 10) // prints -100000000. n is 9, k is 10
 ```
 
+If you are struggling with it, do it without the K
+> d(n) = -1 * d(n-1)
+> d(1) is always -1
+
+Then add in the k afterwards
+
 
 ## Course book
 HW: https://classroom.udacity.com/courses/ud1110 Lesson 5 Functions). (Functions, variable scope, default arguments, lamda functions).
