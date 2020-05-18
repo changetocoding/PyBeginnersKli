@@ -127,8 +127,6 @@ def fizz_buzz(last_no):
       print('This is {} out of {}'.format(count, last_no))
 
 
-
-
 def increment_by_ten(count):
    count = count + 10
    return count
@@ -141,9 +139,6 @@ b = increment_by_ten(p)
 #print(b) # 30
 #print(p) # 20
 
-
-
-1, 1, 2, 3, 5, 8
 
 def fib_rec(no):
   if no == 1 or no == 2:
