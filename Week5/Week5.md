@@ -101,12 +101,12 @@ We are going to extend phonebook to take in user input & store the number as an 
 Write a new script that takes 2 commands
 - Add: the user can enter name and a number. e.g David 345678901
 - Query: the user can query the phone book using a name: given a name it returns the number of the person. Return a useful error message if the person does not exist.
-IMPORTANT The user will always enter the correct commands and input (e.g. the number will not have any letters in it) so dont need to write code to check
+IMPORTANT The user will always enter the correct commands and input (e.g. the number will not have any letters in it) so dont need to write code to check. The user will enter first name only and will always begin with a capital letter.
 
 E.g. sample input/output
 ```
->Please enter an instruction:
-Add David 2345678901
+>Please enter an instruction:  # This is outputted by your script
+Add David 2345678901           # This is what the user entered
 >Please enter an instruction:   
 Add Tom 12345678900  
 >Please enter an instruction:   
