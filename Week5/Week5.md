@@ -96,6 +96,46 @@ org_chart = { sales: { employees: ['Tom', 'Peter'] }, it: { dev: [ 'James', 'Jan
 ```
 
 # Homework:
+### Phonebook part II
+We are going to extend phonebook to take in user input & store the number as an int
 
-### Read:
+Write a new script that takes 2 commands
+- Add: the user can enter name and a number. e.g David 345678901
+- Query: the user can query the phone book using a name: given a name it returns the number of the person. Return a useful error message if the person does not exist.
+IMPORTANT The user will always enter the correct commands and input (e.g. the number will not have any letters in it) so dont need to write code to check
+
+E.g. sample input/output
+```
+>Please enter an instruction:
+Add David 2345678901
+>Please enter an instruction:   
+Add Tom 12345678900  
+>Please enter an instruction:   
+Query David   
+>David's number is 2345678901
+>Please enter an instruction:
+Add Peter 12345678911
+>Please enter an instruction:
+Query Thomas   
+>No Thomas found
+>Please enter an instruction:
+```
+
+Where > is used to indicate the system responses from your script
+
+**Now convert the adding & querying into functions**
+```python
+def add_number(name, number):
+    ...
+    
+def query_number(name):
+    ...
+```
+
+**Bonus points**
+Uk Telephone numbers are 11 numbers. But normally start with a 0. E.g. 02081114444 or 0771234444
+How can you store this as an int, but be able to correctly print the number with the leading 0s?
+
+
+### Additional reading (optional):
 https://realpython.com/defining-your-own-python-function/
