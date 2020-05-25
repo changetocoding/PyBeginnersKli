@@ -92,7 +92,7 @@ print('\n'.join(names))
 
 ### Org chart
 ```python
-{ sales: { employees: ['Tom', 'Peter'] }, IT: { Dev: [ 'James', 'Jane' ], Support: [ 'Sarah' ] }}
+{ sales: { employees: ['Tom', 'Peter'] }, it: { dev: [ 'James', 'Jane' ], support: [ 'Sarah' ] }}
 ```
 
 # Homework:
