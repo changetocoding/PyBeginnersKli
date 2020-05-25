@@ -36,10 +36,9 @@ def query_dictionary(name):
     
 read_file()
 update_dictionary()
-while True:
-    name = input('Please enter a name')
-    no = query_dictionary(name)
-    print('The number is: ' + str(no))
+no = query_dictionary('David')
+print('The number is: ' + str(no))
+
 ```
 
 # Syntax
