@@ -2,8 +2,13 @@
 ### Functions you already know
 ```python
 print('it')  # takes in one argument. No return
-input() # no argument. Returns string
+input() # String argument. Returns string
 len('string') # one argument. Returns number
+```
+
+We can use input to get user input from the console. useful for homework
+```python
+users_name = input('Please enter your name\n') 
 ```
 
 # Why functions:
