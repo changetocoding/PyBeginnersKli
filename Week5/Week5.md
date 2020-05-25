@@ -92,14 +92,92 @@ print('\n'.join(names))
 ```
 
 
-# Recursion. A better example.
+# Recursion. Better example.
 
 ### Finding all files on your computer
+Its either a file or directory. if its a directory call the method recursively with that directory
 
 ### Org chart
 ```python
 org_chart = { sales: { employees: ['Tom', 'Peter'] }, it: { dev: [ 'James', 'Jane' ], support: [ 'Sarah' ] }}
 ```
+
+# Class notes
+```python
+#d(n) = -2 * d(n-1)
+#d(1) is always -1
+
+
+def david_rec(n):
+  if n == 1:
+    return -1
+
+  return -2 * david_rec(n-1)
+
+
+# For loop
+def david_for(n):
+  last_no = -1
+  if n == 1:
+    return last_no
+
+  for i in range (1, n):
+    last_no = -2 * last_no 
+
+  return last_no
+
+
+def david_for_list(n):
+  prev_nos = [-1]
+  if n == 1:
+    return prev_nos[0]
+
+  for i in range (1, n):
+    current = -2 * prev_nos[-1]
+    prev_nos.append(current)
+
+  return prev_nos
+
+
+# While loop
+def david_while(n):
+  last_no = -1
+  if n == 1:
+    return last_no
+
+  # index= 1 then last_no = -1. We stop at n
+  # n = 3
+  index = 2
+  while index <= n:
+    last_no = -2 * last_no
+    index = index + 1
+
+  return last_no
+
+
+def david_while_list(n):
+  prev_nos = [0, -1]
+  if n == 1:
+    return prev_nos
+
+  # index= 1 then last_no = -1. We stop at n
+  # n = 3
+  index = 2
+  while index <= n:
+    current = -2 * prev_nos[index - 1]
+    print('prev_nos {}. Index {}. Current {}'.format(prev_nos, index, current))
+    prev_nos.append(current)
+    index = index + 1
+
+  return prev_nos
+
+
+print(david_while(1))
+print(david_while(2))
+print(david_while(3))
+print(david_while(6))
+```
+
 
 # Homework:
 ### Phonebook part II
